@@ -10,8 +10,8 @@ jobs:
         run: python3 --version
       - name: Check requests package
         run: pip show requests
-      - name: Delete requests module
-        run: pip uninstall -y requests
-      - name: Check requests package
-        run: pip show requests
+      - name: Get Code
+        uses: actions/checkout@v6
+      - name: Run code
+        run: python3 test.py
         
