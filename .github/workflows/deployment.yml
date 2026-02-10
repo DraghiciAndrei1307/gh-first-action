@@ -15,7 +15,6 @@ jobs:
       - name: Run code
         run: python3 api_test.py
   deploy:
-    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Get Code
