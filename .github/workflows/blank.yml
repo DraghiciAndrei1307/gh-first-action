@@ -6,4 +6,7 @@ jobs:
     steps:
       - name: Check Python3 Version
         run: python3 --version
+      - name: Check requests package
+        run: pip show requests
+      
         
