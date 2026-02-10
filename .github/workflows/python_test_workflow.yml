@@ -9,7 +9,7 @@ jobs:
       - name: Check requests package
         run: pip show requests
       - name: Delete requests module
-        run: pip uninstall requests
+        run: pip uninstall -y requests
       - name: Check requests package
         run: pip show requests
         
