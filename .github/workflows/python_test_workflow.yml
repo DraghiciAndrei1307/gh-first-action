@@ -13,5 +13,5 @@ jobs:
       - name: Get Code
         uses: actions/checkout@v6
       - name: Run code
-        run: python3 test.py
+        run: python3 api_test.py
         
