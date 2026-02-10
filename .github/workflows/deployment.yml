@@ -14,4 +14,12 @@ jobs:
         uses: actions/checkout@v6
       - name: Run code
         run: python3 api_test.py
-        
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Code
+        uses: actions/checkout@v6
+      - name: Build project
+        run: echo "Build Python packages..."
+      - name: Deploy
+        run: echo "Deploy Python packages..."
