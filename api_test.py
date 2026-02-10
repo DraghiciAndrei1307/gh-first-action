@@ -1,4 +1,4 @@
-#import requests
+import requests
 
 response = requests.get(url = "https://pokeapi.co/api/v2/pokemon/ditto")
 
