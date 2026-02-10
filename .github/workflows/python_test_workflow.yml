@@ -8,5 +8,8 @@ jobs:
         run: python3 --version
       - name: Check requests package
         run: pip show requests
-      
+      - name: Delete requests module
+        run: pip uninstall requests
+      - name: Check requests package
+        run: pip show requests
         
